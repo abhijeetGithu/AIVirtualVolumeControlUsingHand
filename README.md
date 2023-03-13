@@ -11,6 +11,8 @@ MediaPipe
 autopy
 
 ## Working
+### This code is used to use your system volume to be control by hand tracking point of tip finger's top(4) and middle finger's top(12).
+
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
@@ -21,5 +23,7 @@ volume = cast(interface, POINTER(IAudioEndpointVolume))
 volume.GetMute()
 volume.GetMasterVolumeLevel()
 volRange=volume.GetVolumeRange()
-### This code is used to use your system volume to be control by hand tracking point of tip finger's top(4) and 
-middle finger's top(12).
+
+### Now use hand trakcing module 
+if you are working on Pycharm then you can directly use Hand tracking module But i have done my project 
+on jupyter notebook by using code snippet of hand module.
