@@ -24,6 +24,6 @@ volume.GetMute()
 volume.GetMasterVolumeLevel()
 volRange=volume.GetVolumeRange()
 
-### Now use hand trakcing module 
+### Now use hand tracking module
 if you are working on Pycharm then you can directly use Hand tracking module But i have done my project 
 on jupyter notebook by using code snippet of hand module.
