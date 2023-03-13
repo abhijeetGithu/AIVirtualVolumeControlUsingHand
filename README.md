@@ -11,7 +11,7 @@ MediaPipe
 autopy
 
 ## Working
-### This code is used to use your system volume to be control by hand tracking point of tip finger's top(4) and middle finger's top(12).
+### This code is used to use your system volume to be control by hand tracking point of tip finger's top(4) and first finger's top(8).
 
 from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
@@ -27,3 +27,6 @@ volRange=volume.GetVolumeRange()
 ### Now use hand tracking module
 if you are working on Pycharm then you can directly use Hand tracking module But i have done my project 
 on jupyter notebook by using code snippet of hand module.
+
+All the values which are used may or may not be same in your case. 
+
